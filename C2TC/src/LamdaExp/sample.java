@@ -26,6 +26,11 @@ public class sample {
 
         squareIt sq =(n)-> n*n;
         System.out.println(sq.sqare(5));
+        
+        cheackIt chk =n->n%2==0;
+        System.out.println(chk.check(6));
+        System.out.println(chk.check(3));
+        
 
 
 

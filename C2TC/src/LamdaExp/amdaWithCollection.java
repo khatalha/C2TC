@@ -1,6 +1,6 @@
 package LamdaExp;
 
-
+//Comparator have campare() mthod
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

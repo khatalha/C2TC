@@ -14,3 +14,7 @@ interface small {
 interface squareIt {
     public int sqare(int n);
 }
+
+interface cheackIt {
+    public Boolean check(int n);
+}
