@@ -49,3 +49,19 @@ public class consumer {
 	}
 
 }
+/*
+********************8Primitive types of Consumer**********************
+IntConsumer
+        void accept(int value)
+LongConsumer
+DoubleConsumer
+
+
+    ---------------------------------------------------
+ObjIntConsumer
+        void accept(T t,int value)
+ObfLongConsumer
+         void accept(T t,Long value)
+ObjDoubleConsumer
+         void accept(T t,Double value)
+ */
