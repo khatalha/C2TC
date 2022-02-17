@@ -90,3 +90,51 @@ ToDoubleBiFunction
 
 
 */
+
+ System.out.println("hello");
+//        IntFunction<Integer> f= n->n*n;
+//        System.out.println(f.apply(4));
+//        System.out.println(f.apply(31));
+
+//        DoubleFunction<Double> f= n->n*n;
+//        System.out.println(f.apply(4.2));
+//        System.out.println(f.apply(12));
+
+//        LongFunction<Long> f= n->n*n;
+//        System.out.println(f.apply(41111111));
+//        System.out.println(f.apply(31));
+
+//        UnaryOperator<Integer> u=n->n*n;
+//        System.out.println(u.apply(12));
+
+//        IntUnaryOperator v= n->n*n;
+//        System.out.println(v.applyAsInt(12));
+
+//        LongUnaryOperator v= n->n*n;
+//        System.out.println(v.applyAsLong(12));
+//
+//        DoubleUnaryOperator w= n->n*n;
+//        System.out.println(w.applyAsDouble(11));
+
+
+//        BiFunction<String,String,String> b=(S1,s2)->S1+s2;
+//        System.out.println(b.apply("Talha" ," usman"));
+//
+//        BinaryOperator<String> c=(S1,s2)->S1+s2;
+//        System.out.println(c.apply("Talha" ," usman"));
+
+//        IntBinaryOperator e = (S1, s2) -> S1 + s2;
+//        System.out.println(e.applyAsInt(4, 5));
+//
+//        LongBinaryOperator f = (S1, s2) -> S1 + s2;
+//        System.out.println(f.applyAsLong(4, 5));
+//
+//        DoubleBinaryOperator i = (S1, s2) -> S1 + s2;
+//        System.out.println(i.applyAsDouble(4, 5));
+
+
+        IntUnaryOperator o=i->i+1;
+        System.out.println(o.applyAsInt(4));
+
+        IntUnaryOperator j=k->k*k;
+        System.out.println(j.applyAsInt(5));
