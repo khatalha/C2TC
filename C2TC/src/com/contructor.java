@@ -1,6 +1,5 @@
 package com;
 
-
 class student{
     int id;
     String name;
